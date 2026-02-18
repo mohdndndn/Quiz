@@ -1,0 +1,165 @@
+.main {
+  flex: 1;
+  background: rgb(78, 120, 116);
+  min-height: calc(100vh - 62px);
+  display: flex;
+  justify-content: center;
+  padding: 32px 16px 160px;
+}
+
+.content {
+  width: 100%;
+  max-width: 663px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleBlock {
+  width: 100%;
+  max-width: 663px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.96px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.options {
+  width: 100%;
+  max-width: 358px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card {
+  width: 100%;
+  min-height: 80px;
+  background: #ffffff;
+  border: 1px solid rgb(236, 248, 246);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 12px;
+  cursor: pointer;
+  transition: border-color 0.2s, background-color 0.2s;
+  text-align: left;
+}
+
+.card:hover {
+  background: #f8fffd;
+}
+
+.cardSelected {
+  border: 2px solid rgb(147, 189, 184);
+  background: #ffffff;
+}
+
+.cardLeft {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  flex: 1;
+  min-width: 0;
+}
+
+.iconCircle {
+  width: 48px;
+  height: 48px;
+  background: rgb(236, 248, 246);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-right: 8px;
+  overflow: hidden;
+}
+
+.labelBlock {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.label {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: rgb(29, 61, 57);
+  font-family: var(--font-family);
+  transition: color 0.3s ease-in-out;
+}
+
+.emotionalSubtitle {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #71A6A1;
+  margin-top: 2px;
+  font-family: var(--font-family);
+}
+
+.checkboxWrap {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: rgb(186, 217, 213);
+  appearance: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: border 0.1s ease-in;
+  outline: none;
+}
+
+.checkmark {
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+  pointer-events: none;
+}
+
+.checkmarkVisible {
+  opacity: 1;
+}
+
+.checkboxChecked {
+  background-color: rgb(78, 120, 116);
+}

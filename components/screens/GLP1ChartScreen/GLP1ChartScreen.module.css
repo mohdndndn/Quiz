@@ -1,0 +1,63 @@
+.main {
+  flex: 1;
+  background: #ffffff;
+  min-height: calc(100vh - 62px);
+  display: flex;
+  justify-content: center;
+  padding: 32px 16px 160px;
+}
+
+.content {
+  width: 100%;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #1D3D39;
+  margin-bottom: 8px;
+}
+
+.accent {
+  color: #4E7874;
+}
+
+.chartWrap {
+  background: #f8fbfb;
+  border: 1px solid #ECF8F6;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 24px 0;
+}
+
+.statBox {
+  background: linear-gradient(135deg, #1D3D39, #2F5854);
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-top: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.statNumber {
+  font-size: 28px;
+  font-weight: 700;
+  color: #93BDB8;
+  flex-shrink: 0;
+}
+
+.statText {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255,255,255,0.9);
+}
+
+.redZoneLabel {
+  font-size: 11px;
+  fill: #c0392b;
+  font-weight: 600;
+}

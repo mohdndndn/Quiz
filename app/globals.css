@@ -1,0 +1,36 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-darkest: #1D3D39;
+  --color-logo: #2F5854;
+  --color-bg: #4E7874;
+  --color-icon: #71A6A1;
+  --color-mid: #93BDB8;
+  --color-soft: #BAD9D5;
+  --color-pale: #ECF8F6;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-text: #212529;
+  --color-text-dark: #1D3D39;
+  --font-family: 'Lexend', -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background-color: var(--color-bg);
+  min-height: 100vh;
+}
+
+button {
+  font-family: var(--font-family);
+}
+
+input {
+  font-family: var(--font-family);
+}
